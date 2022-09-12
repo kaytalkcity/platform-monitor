@@ -1,0 +1,90 @@
+apiVersion: v1
+entries:
+  grafana:
+  - apiVersion: v2
+    appVersion: 9.1.2
+    created: "2022-09-12T13:59:33.080429721Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 9166e49d0a7818db7b00898e1a17a8717cac88c0bd141a63ce183041c7fc804c
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - https://kaytalkcity.hithub.io/platform-monitor/grafana-6.37.1.tgz
+    version: 6.37.1
+  helm-chart-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-12T13:59:33.080925027Z"
+    description: A Helm chart for Kubernetes
+    digest: 43cec06f3edbf8bd7881d89957b8010494e4e9cc6cfc05bff1efe2d377043f9c
+    name: helm-chart-test
+    type: application
+    urls:
+    - https://kaytalkcity.hithub.io/platform-monitor/helm-chart-test-0.1.0.tgz
+    version: 0.1.0
+  kube-state-metrics:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2022-09-12T13:59:33.08207901Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 4207043ce37d83dd3fd1c5bbcf4663b1036e975b3950d7f39edd12f3f922401f
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://kaytalkcity.hithub.io/platform-monitor/kube-state-metrics-4.18.0.tgz
+    version: 4.18.0
+  prometheus-node-exporter:
+  - apiVersion: v2
+    appVersion: 1.3.1
+    created: "2022-09-12T13:59:33.083066652Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 366ff26fb39bd1f455437443c6210c3625bf7b41f382ae36fb7cc60e52a7f5b7
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - https://kaytalkcity.hithub.io/platform-monitor/prometheus-node-exporter-4.0.0.tgz
+    version: 4.0.0
+generated: "2022-09-12T13:59:33.074902532Z"
